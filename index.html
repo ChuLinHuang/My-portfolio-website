@@ -13,27 +13,24 @@
     <h1>Chu-Lin's Portfolio</h1>
     <nav>
     <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
     </nav>
     </header>
 
     <main>
-    <section class="introduction"> 
+    <section class="introduction" id="about"> 
         <div class="info">
             <h2>Hello! I'm </h2>
             <h2>Chu-Lin</h2>
-            <h3>Interested in Robotics & Computer Vision</h3>
+            <h3>Interested in Robotics, Computer Vision & AI</h3>
             <p>
-              I hold a Master of Engineering in Autonomy & Robotics from University of Illinois Urbana-Champaign, 
-              where I developed SLAM-based localization, multi-object tracking, and LiDAR-camera fusion to enhance 
-              perception in autonomous vehicles/mobile robotics.
+              Master of Engineering in Autonomy & Robotics from <strong>UIUC</strong>
             </p>
             <p>
-              My expertise lies in software development for robotics and AI, with extensive experience in C++, 
-              Python, CUDA, ROS, Linux, and deep learning frameworks like PyTorch and TensorFlow.
+              Python, C++, CUDA, ROS, Software Development, OOP, PyTorch
             </p>
             <div class="button-container"></div>
                 <a href="resume/Chu-Lin Huang_Resume.pdf" target="_blank" class="btn">
@@ -47,12 +44,17 @@
         </div>
     </section> 
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2 class="projects-title">My Projects</h2>
         <div>
             <img src="images/SLAM.jpg" alt="SLAM & Multi-Object Tracking on Autonomous Vehicle">
             <h3>SLAM & Multi-Object Tracking on Autonomous Vehicle</h3>
-            <p><br>Description of Project 1</p>
+            <p>
+                <br>🚀 Enhancing Perception for Autonomous Vehicles
+                Developed and deployed SLAM on Autonomous Vehicles, integrating Multi-Object Tracking with YOLOv8 and Kalman Filter to enhance real-time perception.
+                🛰️ Benchmarked Visual Inertial Odometry against GNSS and IMU for precise localization.
+                🌍 Improved sensor fusion by calibrating LiDAR-camera extrinsics using PnP, achieving a 0.68 IoU in 3D point cloud clustering with DBSCAN.
+            </p>
         </div>
         <div>
             <img src="images/Robot-Localization.jpg" alt="Monte Carlo Localization based on ROS with Lidar Simulation">

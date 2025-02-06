@@ -12,20 +12,23 @@ header {
     width:100%;
     position:fixed;
 }
+html {
+    scroll-behavior: smooth;
+}
 h1 {
-    color:black;
+    color: black;
     font-family: "Inconsolata";
-    position:absolute;
-    left:50px;
-    top:0;
-    line-height:80px;
-    font-size:25px;
+    position: absolute;
+    left: 100px;
+    top: 0;
+    line-height: 80px;
+    font-size: 25px;
 }
 header ul {
     position:absolute;
-    right:5vw;
-    top:0;
-    line-height:80px;
+    right: 1vw;
+    top: 0;
+    line-height: 80px;
 }
 header li {
     display: inline;
@@ -81,20 +84,20 @@ header a:hover {
     padding: 0 0 0 40px;
 }
 .info h3 {
-    font-size:40px;
+    font-size:50px;
     margin-bottom:10px;
     font-family: "Inconsolata";
     padding: 0 0 0 40px;
 }
 .info p {
-    font-size:20px;
+    font-size:30px;
     margin-bottom:20px;
     font-family: "Inconsolata";
     padding: 0 0 0 40px;
 }
 .button-container {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     width: 100%;
   }
@@ -146,7 +149,7 @@ header a:hover {
 }
 .projects h3 {
     font-size: 20px;
-    margin: 20px 0;
+    margin: 5px 0;
 }
 .projects p {
     font-size: 15px;
